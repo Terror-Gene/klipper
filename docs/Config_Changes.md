@@ -136,7 +136,7 @@ literals. If a value needs to be assigned a string then wrap the value
 in quotes so that it is evaluated as a string.
 
 20190606: The "samples", "samples_result", and "sample_retract_dist"
-config options have been moved to the "probe" config section. These
+config options have been moved to the relative "probe" or "bltouch" config section. These
 options are no longer supported in the "delta_calibrate", "bed_tilt",
 "bed_mesh", "screws_tilt_adjust", "z_tilt", or "quad_gantry_level"
 config sections.
